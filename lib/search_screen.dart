@@ -5,13 +5,7 @@ import 'dart:isolate';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:getflutter/getflutter.dart';
 import 'package:http/http.dart' as http;
-// import 'package:path_provider/path_provider.dart';
-import 'package:flutter_downloader/flutter_downloader.dart';
-// import 'package:permission_handler/permission_handler.dart';
-
-import 'package:path_provider/path_provider.dart';
 import 'widgets/tiles_widget.dart';
 
 Future<List<Video>> createVideoList(String title) async {
