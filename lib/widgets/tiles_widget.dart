@@ -3,18 +3,6 @@ import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:getflutter/getflutter.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 
-class Palette {
-  // background gradient
-  static Color blueSky = Color(0xf1f1f8FA);
-  static Color greenLand = Color(0xFF89ED91);
-
-  // card gradient
-  static Color blueSkyLight = Color(0x40068FFA);
-  static Color greenLandLight = Color(0x4089ED91);
-
-  static Color blueSkyLighter = Color(0xf3f3f3FA);
-}
-
 class CardTileTest extends StatelessWidget {
   final String title;
   final String size;
